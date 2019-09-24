@@ -9,3 +9,7 @@ some stretch goals that will be implemented as I progress are:
 -perhaps simplifying to just one or two pages instead of 3
 -more examples of my work showcasing a larger scope of my skills
 
+
+Deployed Link: https://rajsodhi1.github.io/sept-portfolio/.
+Github Link: https://github.com/Rajsodhi1
+
