@@ -47,14 +47,14 @@ h2, h3 {
     color: #fff;
     overflow: auto;
     border-bottom: 2px solid #ccc;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
 }
 
 #header-logo {
     width: 250px;
     height: 95px;
-    background: #4aaa4a;
+    background: #3944ac;
     float: left;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -102,5 +102,32 @@ nav a:first-child {
     margin-top: 10px;
     float: left;
     margin-right: 20px;
-    
+}
+
+#find-me {
+    background: #fff;
+    padding: 25px;
+    width: 100%;
+    max-width: 250px;
+    float: right;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+h2, #find-me {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.links {
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.links:last-child {
+    margin-right: 0;
 }
