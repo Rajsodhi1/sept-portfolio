@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>Raj Sodhi</title>
-        <link rel="stylesheet" type="text/css" href="assets/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     </head>
     <body>
@@ -21,21 +21,22 @@
         <section class="contact-section">
             <h1>Talk To Me</h1>
             <form id="contact-form">
+                <form action="mailto:youraddr@domain.tld" method="GET">
                 <ul>
                     <li>
-                        <label for="name">Who are you?</label>
-                        <input type="text" name="name" id="name" placeholder="Your Name" required="required">
-                    </li>
+                        <label for="subject">Subject</label>
+                        <input name="subject" type="text" placeholder="Subject" id="subject" />                    </li>
                     <li>
                         <label for="email">Email</label>
                         <input type="text" name="email" id="email" placeholder="You@email.com" required="required">
                     </li>
                     <li>
                         <label for="message">Say Something</label>
-                        <textarea id="message" name="message" required="required"></textarea>
+                        <textarea name="body" id="body" placeholder="body"></textarea>
                     </li>
                 </ul>
-                <input type="submit" name="submit">
+                <input type="submit" name="submit" value="Send"/>
+            </form>
             </form>
 
         </section>
